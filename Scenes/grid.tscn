@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck26troe7cbdt"]
+
+[ext_resource type="Script" path="res://Scripts/grid.gd" id="1_sjmsi"]
+
+[node name="Grid" type="Node3D"]
+script = ExtResource("1_sjmsi")
+num_divisions = 10
+size = 180.0

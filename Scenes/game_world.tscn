@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://xk1jcp8hhfqr"]
+
+[ext_resource type="PackedScene" uid="uid://ck26troe7cbdt" path="res://Scenes/grid.tscn" id="1_l3p43"]
+
+[node name="GameWorld" type="Node3D"]
+
+[node name="Grid" parent="." instance=ExtResource("1_l3p43")]
+num_divisions = 2
+size = 64.0
